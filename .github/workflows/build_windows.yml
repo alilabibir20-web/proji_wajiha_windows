@@ -28,7 +28,7 @@ jobs:
         pyinstaller --onefile proji_wajiha_1.py
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: uses: actions/upload-artifact@v4
       with:
         name: proji_wajiha_exe
         path: dist/*.exe
